@@ -319,9 +319,33 @@ section {
     text-align: center;
 }
 
-.team-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.member-card-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-icon {
+    gap: 24px;
+}
+
+.social-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    fill: #4d5ae5;
+    border-radius: 50%;
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+    background-color: #404bbf;
+}
+.social-icon:hover,
+.social-icon:focus {
+    color: #f4f4fd;
 }
 
 /* section our portfolio */
