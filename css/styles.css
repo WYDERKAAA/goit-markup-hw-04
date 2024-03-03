@@ -117,7 +117,7 @@ section {
     color: #404bbf;
 }
 
-.link-model-0::after {
+.link-model-zero::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -256,6 +256,7 @@ section {
 .feature-icon-list {
     width: 264px;
     height: 112px;
+    margin-bottom: 8px;
     border-radius: 4px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -403,8 +404,7 @@ section {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card:hover .add-text,
-.portfolio-card:focus .add-text {
+.portfolio-card:hover .portfolio-card:focus {
     transform: translateY(0%);
 }
 
@@ -475,27 +475,26 @@ section {
     display: inline-block;
     margin-bottom: 16px;
 }
+
+.footer-bright-text {
+    color: #f4f4fd;
+
+    display: block;
+    flex-wrap: wrap;
+    width: 264px;
+}
+
 .logo-white {
     color: #f4f4fd;
     width: 264px;
 }
 
-.footer-bright-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.footer-media-text {
     color: #f4f4fd;
-    background-color: #2e2f42;
+
     display: block;
     flex-wrap: wrap;
     width: 264px;
-}
-.footer-media-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
 }
 
 .footer-ikon-area {
@@ -512,6 +511,12 @@ section {
     width: 100%;
     height: 100%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    background-color: #31d0aa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-link:hover,
