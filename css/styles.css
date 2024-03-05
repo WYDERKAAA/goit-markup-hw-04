@@ -111,7 +111,9 @@ section {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.color {
+    color: #404bbf;
+}
 .current {
     position: relative;
     color: #404bbf;
@@ -481,6 +483,7 @@ section {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     font-size: 16px;
+    font-weight: 500px;
     line-height: 1.5;
     text-align: left;
     display: block;
