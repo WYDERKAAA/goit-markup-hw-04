@@ -502,12 +502,12 @@ section {
 }
 
 .footer-media-text {
-    font-weight: 500px;
+    font-weight: 500;
     color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     font-style: normal;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
 
